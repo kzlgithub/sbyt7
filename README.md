@@ -9,7 +9,7 @@ curl -fsSL https://sing-box.app/install.sh | sh -s -- --version 1.12.13
 sing-box generate reality-keypair
 ```
 
-
+### 修改/etc/sing-box/config.json：
 <details>
 <summary>点击展开查看完整代码</summary>
 ```
@@ -19,4 +19,4 @@ sing-box generate reality-keypair
       "port": 8388, 
       "protocol": "vmess",
 ```
-</details>
+
