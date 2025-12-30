@@ -8,3 +8,15 @@ curl -fsSL https://sing-box.app/install.sh | sh -s -- --version 1.12.13
 ```
 sing-box generate reality-keypair
 ```
+
+<details>
+<summary>点击展开查看完整代码</summary>
+
+```
+{
+  "inbounds": [
+    {
+      "port": 8388, 
+      "protocol": "vmess",
+```
+</details>
