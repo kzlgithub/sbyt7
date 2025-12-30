@@ -1,4 +1,4 @@
-[(https://img.youtube.com/vi/AmA37gOaqOs/0.jpg)](https://www.youtube.com/watch?v=AmA37gOaqOs)
+[![图片](https://img.youtube.com/vi/AmA37gOaqOs/0.jpg)](https://www.youtube.com/watch?v=AmA37gOaqOs)
 
 # 🚀 【最隐蔽的节点】AnyTLS+Reality+SingBox节点搭建教程
 
