@@ -180,3 +180,53 @@ sing-box.exe run -c config.json
 pause
 ```
 
+
+
+
+
+<div align="center" style="font-family: 'Segoe UI', Arial, sans-serif; background: #0a0a0d; color: #00ffcc; padding: 20px; border-radius: 10px; border: 2px solid #00ffff; box-shadow: 0 0 15px #00ffff, 0 0 25px #00ffcc;">
+
+  <h1 style="color: #00ffff; text-shadow: 0 0 5px #00ffff, 0 0 10px #00ccff; font-size: 2.5em; margin-bottom: 15px;">
+    🚀 <span style="font-family: 'Press Start 2P', cursive;">PROJECT: NEON GATEWAY</span> 🚀
+  </h1>
+  <p style="color: #99ffff; font-size: 1.1em; margin-bottom: 20px;">
+    // Secure. Anonymous. Undetectable. //
+  </p>
+
+  <p style="color: #00ffcc; font-size: 1.2em; margin-bottom: 25px; line-height: 1.6;">
+    <strong style="color: #00ffff; text-shadow: 0 0 3px #00ffff;">Dive into the future of network freedom.</strong>
+    <br>This guide deploys an <code style="background: #222; padding: 3px 6px; border-radius: 3px; color: #ff00cc; font-weight: bold;">AnyTLS+Reality+SingBox</code> node – your ultimate stealth protocol for traversing the digital matrix.
+  </p>
+
+  <h2 style="color: #ff00cc; text-shadow: 0 0 5px #ff00cc, 0 0 10px #ff33ee; font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">
+    📺 // PROTOCOL DEPLOYMENT: VISUAL GUIDE //
+  </h2>
+
+  <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; margin-bottom: 25px; border: 2px solid #00ffff; box-shadow: 0 0 10px #00ffff, 0 0 20px #00ccff;">
+    <iframe
+      src="https://www.youtube.com/embed/AmA37gOaqOs"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+  </div>
+
+  <h2 style="color: #00ffcc; text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ccff; font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">
+    ⚙️ // CONFIGURATION MANIFEST //
+  </h2>
+  
+  <p style="color: #99ffff; font-size: 1.1em; margin-bottom: 15px;">
+    Access the full step-by-step instructions and code snippets in the README below or on our channel.
+  </p>
+
+  <a href="https://www.youtube.com/@%E8%B5%9B%E5%8D%9A%E4%BA%91%E6%A2%AF"
+     style="display: inline-block; padding: 10px 20px; margin-top: 15px; background: #ff00cc; color: #0a0a0d; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1em; transition: background 0.3s ease, box-shadow 0.3s ease; box-shadow: 0 0 8px #ff00cc;">
+    🔗 ACCESS CYBER LADDER YOUTUBE CHANNEL 🔗
+  </a>
+
+  <p style="color: #66ccff; font-size: 0.9em; margin-top: 30px;">
+    // TRANSMISSION END. STAY UNTRACEABLE. //
+  </p>
+
+</div>
