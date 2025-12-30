@@ -157,3 +157,16 @@ systemctl status sing-box
 }
 ```
 </detail>
+
+### 启动singbox客户端：
+```
+sing-box.exe run -c config.json
+```
+
+### bat脚本启动：
+```
+@echo off
+cd /d %~dp0
+sing-box.exe run -c config.json
+pause
+```
