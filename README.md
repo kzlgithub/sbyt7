@@ -4,3 +4,7 @@
 ```
 curl -fsSL https://sing-box.app/install.sh | sh -s -- --version 1.12.13
 ```
+### private_key生成命令：
+```
+sing-box generate reality-keypair
+```
