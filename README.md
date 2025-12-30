@@ -55,7 +55,9 @@ sing-box generate reality-keypair
   ]
 }
 ```
-
-### 检查配置文件：
-
 </details>
+
+### 检查配置文件是否正确：
+```
+sing-box check -c /etc/sing-box/config.json
+```
