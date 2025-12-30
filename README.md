@@ -12,6 +12,7 @@ sing-box generate reality-keypair
 ### 修改/etc/sing-box/config.json：
 <details>
 <summary>点击展开查看完整代码</summary>
+  
 ```
 {
   "inbounds": [
