@@ -61,3 +61,99 @@ sing-box generate reality-keypair
 ```
 sing-box check -c /etc/sing-box/config.json
 ```
+
+### 重启singbox：
+```
+systemctl restart sing-box
+```
+
+### 检查运行状态：
+```
+systemctl status sing-box
+```
+
+### 新建config.json文件：
+<details>
+<summary>点击展开查看完整代码</summary>
+
+```
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "google",
+        "type": "tls",
+        "server": "8.8.8.8",
+        "detour": "anytls-out"
+      },
+      {
+        "tag": "local",
+        "type": "udp",
+        "server": "223.5.5.5"
+        // 删除了这里的 detour: direct
+      }
+    ],
+    "strategy": "ipv4_only",
+    "final": "google"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "anytls",
+      "tag": "anytls-out",
+      "server": "70.39.194.224",
+      "server_port": 443,
+      "password": "saiboyunti",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0fhmTgsjGIjRlxTaBeuJY4N_0fhGeLQMFgE2VcBoVic",
+          "short_id": "a1b2c3d4e5f67890"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      },
+      {
+        "ip_is_private": true,
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
+        "action": "route",
+        "outbound": "anytls-out"
+      }
+    ],
+    "auto_detect_interface": true,
+    "default_domain_resolver": "local" // 修复 WARN 警告
+  }
+}
+```
+</detail>
