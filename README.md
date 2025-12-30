@@ -158,6 +158,7 @@ systemctl status sing-box
 ```
 </detail>
 
+
 ### 启动singbox客户端：
 ```
 sing-box.exe run -c config.json
