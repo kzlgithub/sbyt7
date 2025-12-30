@@ -180,3 +180,61 @@ sing-box.exe run -c config.json
 pause
 ```
 
+
+
+
+
+
+
+<div align="center">
+  <div style="background-color: #050a10; border: 2px solid #00f3ff; border-radius: 10px; padding: 20px; width: 90%; max-width: 600px; position: relative; overflow: hidden; font-family: 'Courier New', Courier, monospace; box-shadow: 0 0 20px rgba(0, 243, 255, 0.3);">
+    
+    <div style="color: #00f3ff; font-weight: bold; font-size: 18px; margin-bottom: 20px; text-shadow: 0 0 10px #00f3ff;">
+      LIVE_NODE_CONNECTION_STATUS: [STABLE]
+    </div>
+
+    <svg width="400" height="150" viewBox="0 0 400 150">
+      <circle cx="50" cy="75" r="8" fill="#ff00ff">
+        <animate attributeName="r" values="8;10;8" dur="1.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="35" y="105" fill="#ff00ff" font-size="12">LOCAL</text>
+
+      <line x1="60" y1="75" x2="340" y2="75" stroke="#00f3ff" stroke-width="2" stroke-dasharray="10,5">
+        <animate attributeName="stroke-dashoffset" from="100" to="0" dur="2s" repeatCount="indefinite" />
+      </line>
+
+      <circle r="4" fill="#00f3ff">
+        <animateMotion path="M 60 75 L 340 75" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="350" cy="75" r="8" fill="#00f3ff">
+        <animate attributeName="r" values="8;12;8" dur="1s" repeatCount="indefinite" />
+      </circle>
+      <text x="315" y="105" fill="#00f3ff" font-size="12">REMOTE_NODE</text>
+    </svg>
+
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: rgba(0, 243, 255, 0.5); box-shadow: 0 0 10px #00f3ff; animation: scan 3s linear infinite;"></div>
+
+    <div style="text-align: left; background: rgba(0,0,0,0.5); padding: 10px; border: 1px solid #333; height: 60px; overflow: hidden; color: #00ff00; font-size: 12px; line-height: 1.5;">
+       > INITIALIZING AnyTLS PROTOCOL...<br>
+       > HANDSHAKE WITH REALITY SERVER: SUCCESS<br>
+       > ENCRYPTED TUNNEL ESTABLISHED: 128-BIT AES<br>
+       > PACKET TRANSMISSION ACTIVE...
+    </div>
+
+    <style>
+      @keyframes scan {
+        0% { top: 0%; }
+        100% { top: 100%; }
+      }
+    </style>
+
+    <br>
+    <a href="https://www.youtube.com/watch?v=AmA37gOaqOs" target="_blank">
+      <button style="background: none; border: 1px solid #ff00ff; color: #ff00ff; padding: 10px 20px; cursor: pointer; font-weight: bold; text-shadow: 0 0 5px #ff00ff; box-shadow: 0 0 10px #ff00ff inset;">
+        ENTER THE MATRIX [VIDEO TUTORIAL]
+      </button>
+    </a>
+  </div>
+</div>
