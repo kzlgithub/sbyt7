@@ -21,3 +21,4 @@ sing-box generate reality-keypair
       "protocol": "vmess",
 ```
 
+</details>
