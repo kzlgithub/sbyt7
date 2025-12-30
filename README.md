@@ -156,7 +156,7 @@ systemctl status sing-box
   }
 }
 ```
-</detail>
+</details>
 
 
 ### 启动singbox客户端：
