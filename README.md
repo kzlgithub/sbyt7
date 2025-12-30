@@ -56,4 +56,6 @@ sing-box generate reality-keypair
 }
 ```
 
+### 检查配置文件：
+
 </details>
